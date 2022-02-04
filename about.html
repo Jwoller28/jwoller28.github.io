@@ -1,79 +1,94 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Jordan's Programming Portfolio</title>
-    </head>
-    <body>
-<div class="left">1</div>
-<div class="right">2</div>
-<style>
-    
-    body{
-        -webkit-animation: colorchange 60s infinite; 
-        animation: colorchange 60s infinite;
+
+<head>
+    <meta charset="utf-8">
+    <title>Jordan's Programming Portfolio</title>
+</head>
+
+<body>
+    <div class="left"></div>
+    <div class="right"></div>
+    <style>
+        body {
+            -webkit-animation: colorchange 60s infinite;
+            animation: colorchange 60s infinite;
         }
-    @-webkit-keyframes colorchange {
-      0%  {background: #00BBFF;}
-      100% {background: #0000FF;}
-    }
-    @keyframes colorchange {
-      0%   {background: #00BBFF;}
-      100% {background: #0000FF;}
-    }  
-    
-    div {
-  margin: 5px;
-  width: 100px;
-  height: 500px;
-}
-    
-    .left {
-  float: left;
-  background: #000000;
-}
+        
+        @-webkit-keyframes colorchange {
+            0% {
+                background: #00BBFF;
+            }
+            50% {
+                background: #0000FF;
+            }
+            100% {
+                background: #00BBFF;
+            }
+        }
+        
+        @keyframes colorchange {
+            0% {
+                background: #00BBFF;
+            }
+            50% {
+                background: #0000FF;
+            }
+            100% {
+                background: #00BBFF;
+            }
+        }
+        
+        .left {
+            margin: 1px;
+            width: 101.5px;
+            height: 1000px;
+            float: left;
+            background-color: black;
+        }
+        
+        .right {
+            margin: 1px;
+            width: 101.5px;
+            height: 1000px;
+            float: right;
+            background-color: black;
+        }
+        
+        #button {
+            background: #0643b4;
+            color: #FFFFFF;
+            height: 40px;
+            width: 150px;
+            border: 1px solid #ffffff;
+            margin-left: 55px;
+            margin-right: 55px;
+            font-size: 150%;
+        }
+    </style>
 
-.right {
-  float: right;
-  background: #000000;
-}
-    
-    
-    button {
-     background: #0000FF;
-     color: #FFFFFF;
-    }
+    <div style="text-align:center;"><img src="wbanner.jpg"></div>
+    <p></p>
+    <table>
+        <tr>
+            <a href="index.html"><button type="button" id="button">Home</button></a>
+        </tr>
+        <tr>
+            <a href="javascripts.html"><button type="button" id="button">JavaScripts</button></a>
+        </tr>
+        <tr>
+            <a href="python.html"><button type="button" id="button">Python</button></a>
+        </tr>
+        <tr>
+            <a href="about.html"><button type="button" id="button">About Me</button></a>
+        </tr>
+    </table>
 
-    
-    
-</style>
-        
-        <img src="wbanner.jpg"> 
-       <p></p>
-        <table>
-            <tr>     
-                <a href="index.html"><img src="homecsc106.png"></a>
-            </tr>
-            <tr>
-                <a href="javascripts.html"><img src="javascriptcsc106.png"></a>
-            </tr>
-            <tr>
-                <a href="about.html"><img src="Aboutmecsc106.png"></a>
-            </tr>
-            <tr>
-              <a href="python.html"><button>Python</button></a>
-            </tr>
-        </table>
-        
-        <h1>
-           <marquee behavior=alternate width="300″ scrollamount="8″ scrolldelay="95″ height="37″>About Me!</marquee>
-        </h1>
-        Here is where you'll find all of the information about me!
-        
-        <p></p>
-        
-        <a href="index.html"><button type="button" id="button">
-            Back to the home page!
-            </button></a>
-    </body>
+    <h1>
+        <marquee behavior=alternate width="300″ scrollamount=" 8″ scrolldelay=" 95″ height=" 37″>About Me!</marquee>
+    </h1>
+    Here is where you'll find all of the information about me!
+
+</body>
+
 </html>
