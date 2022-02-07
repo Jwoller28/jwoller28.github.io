@@ -1,3 +1,20 @@
-body {
-  background: #00BBFF;
+#bodyjp {
+    background: #00BBFF;
+}
+
+div.content {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#button {
+    background: #0643b4;
+    color: #FFFFFF;
+    height: 40px;
+    width: 150px;
+    border: 1px solid #ffffff;
+    margin-left: 53px;
+    margin-right: 53px;
+    font-size: 150%;
 }
