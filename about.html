@@ -3,92 +3,60 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Jordan's Programming Portfolio</title>
+    <title>Jordan's About Me</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    body {
+        background-image: url("background.jpg");
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    div.content {
+        width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #bodypara {
+        background-color: #00BBFF;
+        padding-left: 15px;
+        padding-bottom: 15px;
+        padding-right: 15px;
+    }
+    
+    #information {
+        margin-bottom: 0px;
+    }
+</style>
 
 <body>
-    <div class="left"></div>
-    <div class="right"></div>
-    <style>
-        body {
-            -webkit-animation: colorchange 60s infinite;
-            animation: colorchange 60s infinite;
-        }
-        
-        @-webkit-keyframes colorchange {
-            0% {
-                background: #00BBFF;
-            }
-            50% {
-                background: #0000FF;
-            }
-            100% {
-                background: #00BBFF;
-            }
-        }
-        
-        @keyframes colorchange {
-            0% {
-                background: #00BBFF;
-            }
-            50% {
-                background: #0000FF;
-            }
-            100% {
-                background: #00BBFF;
-            }
-        }
-        
-        .left {
-            margin: 1px;
-            width: 101.5px;
-            height: 1000px;
-            float: left;
-            background-color: black;
-        }
-        
-        .right {
-            margin: 1px;
-            width: 101.5px;
-            height: 1000px;
-            float: right;
-            background-color: black;
-        }
-        
-        #button {
-            background: #0643b4;
-            color: #FFFFFF;
-            height: 40px;
-            width: 150px;
-            border: 1px solid #ffffff;
-            margin-left: 55px;
-            margin-right: 55px;
-            font-size: 150%;
-        }
-    </style>
+    <div class=" content " id="content ">
 
-    <div style="text-align:center;"><img src="wbanner.jpg"></div>
-    <p></p>
-    <table>
-        <tr>
-            <a href="index.html"><button type="button" id="button">Home</button></a>
-        </tr>
-        <tr>
-            <a href="javascripts.html"><button type="button" id="button">JavaScripts</button></a>
-        </tr>
-        <tr>
-            <a href="python.html"><button type="button" id="button">Python</button></a>
-        </tr>
-        <tr>
-            <a href="about.html"><button type="button" id="button">About Me</button></a>
-        </tr>
-    </table>
+        <img src="wbanner.jpg ">
+        <p></p>
 
-    <h1>
-        <marquee behavior=alternate width="300″ scrollamount=" 8″ scrolldelay=" 95″ height=" 37″>About Me!</marquee>
-    </h1>
-    Here is where you'll find all of the information about me!
+        <table>
+            <tr><a href="index.html "><button type="button " id="button " style="background: #0643b4;color: #FFFFFF;height: 40px;width: 150px;border: 1px solid #ffffff;margin-left: 53px;margin-right: 53px;font-size: 150%;">Home</button></a></tr>
+            <tr><a href="javascripts.html "><button type="button " id="button " style="background: #0643b4;color: #FFFFFF;height: 40px;width: 150px;border: 1px solid #ffffff;margin-left: 53px;margin-right: 53px;font-size: 150%;">JavaScripts</button></a></tr>
+            <tr><a href="python.html "><button type="button " id="button " style="background: #0643b4;color: #FFFFFF;height: 40px;width: 150px;border: 1px solid #ffffff;margin-left: 53px;margin-right: 53px;font-size: 150%;">Python</button></a></tr>
+            <tr><a href="about.html "><button type="button " id="button " style="background: #0643b4;color: #FFFFFF;height: 40px;width: 150px;border: 1px solid #ffffff;margin-left: 53px;margin-right: 53px;font-size: 150%;">About Me</button></a></tr>
+        </table>
+        <div class="bodypara" id="bodypara">
+            <h1>
+                <marquee behavior=alternate width="300″ scrollamount=" 8″ scrolldelay=" 95″ height=" 37″>About Me!</marquee>
+            </h1>
 
+            <p id="information">My name is <i>Jordan Woller</i>. I am a student of Computer Science at the <a href="https://www.uri.edu/ ">University of Rhode Island</a>, where I plan to graduate in twenty-twenty-four. I plan on attending a graduate school where I will be
+                seeking my master's degree to further my education in Computer Science. <br><br> I am an avid volleyball fan and love to play with my friends on a recreation team. I am also the current returning treasurer of my fraternity <a href="https://www.aepiuri.com">Alpha Epsilon Pi</a>                for my second year. I am a fanatic follower of the
+                <a href="https://www.giants.com">Giants</a>, as they are my childhood team. My favorite time of the year is when I get to spend time with my family at my beach house in Long Beach Island. </p>
+
+        </div>
+        <img id="brothers" src="collage.jpg">
+    </div>
 </body>
 
 </html>
