@@ -8,52 +8,74 @@
 
 </head>
 
-<body>
-
-
-    <style>
-        #button {
-            background: #0643b4;
-            color: #FFFFFF;
-            height: 50;
-            width: 150px;
-            border: 1px solid #ffffff;
-            margin-left: 55px;
-            margin-right: 55px;
-            font-size: 150%;
+<style>
+    body {
+        -webkit-animation: colorchange 60s infinite;
+        animation: colorchange 60s infinite;
+    }
+    
+    @-webkit-keyframes colorchange {
+        0% {
+            background: #00BBFF;
         }
-    </style>
+        50% {
+            background: #0000FF;
+        }
+        100% {
+            background: #00BBFF;
+        }
+    }
+    
+    @keyframes colorchange {
+        0% {
+            background: #00BBFF;
+        }
+        50% {
+            background: #0000ff;
+        }
+        100% {
+            background: #00BBFF;
+        }
+    }
+</style>
 
-    <img src="wbanner.jpg ">
-
-
-    <p></p>
-
-    <table>
-        <tr>
-            <a href="index.html"><button type="button" id="button">Home</button></a>
-        </tr>
-        <tr>
-            <a href="javascripts.html"><button type="button" id="button">JavaScripts</button></a>
-        </tr>
-        <tr>
-            <a href="python.html"><button type="button" id="button">Python</button></a>
-        </tr>
-        <tr>
-            <a href="about.html"><button type="button" id="button">About Me</button></a>
-        </tr>
-    </table>
+<body>
+    <div class="content" id="content">
 
 
 
-    <h1>
-        Jordan Woller's Portfolio!
-    </h1>
+        <img src="wbanner.jpg ">
 
-    Hello and welcome to my Portfolio!
-    <p></p>
-    This website is where you can find all of my code and projects that I have been working on
-    <a href="https://www.uri.edu/ ">at URI!</a>
+
+        <p></p>
+
+        <table>
+            <tr>
+                <a href="index.html"><button type="button" id="button">Home</button></a>
+            </tr>
+            <tr>
+                <a href="javascripts.html"><button type="button" id="button">JavaScripts</button></a>
+            </tr>
+            <tr>
+                <a href="python.html"><button type="button" id="button">Python</button></a>
+            </tr>
+            <tr>
+                <a href="about.html"><button type="button" id="button">About Me</button></a>
+            </tr>
+        </table>
+
+
+
+        <h1>
+            Jordan Woller's Portfolio!
+        </h1>
+
+        Hello and welcome to my Portfolio!
+        <p></p>
+        This website is where you can find all of my code and projects that I have been working on
+        <a href="https://www.uri.edu/ ">at URI!</a>
+
+    </div>
 
 </body>
 
